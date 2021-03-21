@@ -90,6 +90,7 @@ const WATCHERS = () => {
 //     WATCHERS
 // );
 
+exports.clean = CLEAN;
 
 exports.prod = series(
     CLEAN,
